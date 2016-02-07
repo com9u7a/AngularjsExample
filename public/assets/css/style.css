@@ -1,0 +1,515 @@
+   .centerfy{
+     text-align:center;
+     margin-top:5%;
+     margin-bottom:5%;
+   }
+   .jumbotronExt {
+     background-color:#D3D3D3;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     border-radius:0px !important;
+   }
+   #heading {
+     font-size:75px;
+     color:red;
+     font-weight:bold;
+   }
+   .navbar-default {
+     margin-top:-30px;
+     background-color:#FF69B4;
+   }
+   .centerNavText {
+     text-align:center;
+     margin-top:1.25%;
+     margin-bottom:1.25%;
+   }
+   a:hover, a:visited, a:link, a:active {
+     text-decoration:none;
+     color:white;
+   }
+   .whiteLinks {
+     text-decoration:none;
+     color:white;
+   }
+   .textWhite{
+     color:white;
+     font-size:20px;
+   }
+   .modelHeading{
+     background-color:#D3D3D3;
+     border-radius:25px;
+     font-weight:bold;
+     font-size:20px;
+   }
+   .centerContain{
+     text-align:center;
+   }
+   .imageSizeL {
+     width:500px;
+     height:514px;
+   }
+   .imageSizeS {
+     width:500px;
+     height:250px;
+   }
+   .nopadding {
+     padding: 7px !important;
+     margin: 0 !important;
+   }
+   .createBorder {
+     border: 1px solid black;
+   }
+   .centerDiv {
+     margin:0 auto;
+   }
+   .gimmeSpace {
+     margin-bottom:20px;
+   }
+   .backgroundIm{  
+     background-image: url(../img/catwomanNight.jpg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     color:red;
+     font-size:12px;
+     width:300px;
+     height:100px;
+   }
+   .backgroundIZ{  
+     background-image: url(../img/catwomanNight.jpg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     color:red;
+     font-size:12px;
+     width:294px;
+     height:100px;
+   }
+   .deadCenter {
+     margin-top:15%;
+   }
+   .well {
+     background-color:#D3D3D3;
+     border-radius:5px;
+     padding:10px;
+     margin-bottom:20px;
+   }
+   body {
+     background-color:#D3D3D3;
+   }
+   .vertBottom {
+     margin-top:1%;
+   }
+   #bottomTextOne {
+     font-size:100px;
+     font-family: 'Lobster', cursive;
+     color:pink;
+   }
+   #bottomTextTwo {
+     font-size:100px;
+     font-family: 'Lobster', cursive;
+     color:pink;
+   }
+   .copyright{
+     color:white;
+   }
+   .mImageSize {
+     width:300px;
+     height:300px;
+   }
+   .nopaddingm {
+    padding:0 auto !important;
+    padding-bottom:20px;
+    margin:0 auto;
+  }
+  .centerImage {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .fontM{
+    font-family: 'Dancing Script', cursive;
+    font-size:50px;
+    padding-top:110px;
+    color:pink;
+  }
+  .imageSG {
+    width:200px;
+    height:200px;
+  }
+  .padBot{
+    padding-bottom:20px;
+  }
+  .floatLeft{
+    float:left;
+  }
+  .tokenSize {
+    width:20px;
+    height:20px;
+  }
+  .tokenText {
+    font-size:16px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:white;
+  }
+  .paddingCenter {
+    padding:0 auto;
+  }
+  .divText{
+    margin-top:5px;
+  }
+  .displayBlock{
+    display:block;
+  }
+  .divBack {
+    background-color:grey;
+    width:120px;
+  }
+  .tokensLeftBox {
+    background-color:grey;
+    width:70px;
+  }
+  .orbitron {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    color: red;
+  }
+  .aboutProfile {
+    width:250px;
+    height:250px;
+  }
+  .righteous {
+    font-family: 'Righteous', cursive;
+    color:white;
+    font-size:20px;
+  }
+  .house {
+    color:white;
+    font-size: 17px;
+    font-weight:bold;
+  }
+  .colorWhite {
+    color:white;
+  }
+  .backGrey{
+    background-color:gray;
+    width: 350px;
+    height:635px;
+    padding-top:25px;
+  }
+  .kScript {
+    font-family: 'Kaushan Script', cursive !important;
+    color:pink !important;
+    font-size:50px !important;
+  }
+  .moar{
+    width:350px;
+  }
+  .webHead {
+    font-family:'Pacifico',cursive;
+    color:pink;
+    font-size:35px;
+    margin-bottom:-10px;
+    margin-top: 10px;
+  }
+  .subHead{
+    color:orange;
+    font-size:15px;
+  }
+  .padME{
+    padding-left:115px;
+  }
+  .padLA{
+    padding-left:125px;
+  }
+  .padA{
+    padding-left:180px;
+  }
+  .padTO{
+    padding-left:150px;
+  }
+  .padE{
+    padding-left:175px;
+  }
+  .indieF{
+    font-family: 'Indie Flower', cursive;
+    font-size:40px;
+  }
+  .padSM{
+    padding-right:200px;
+    margin-bottom:-30px;
+  }
+  .monHead{
+    font-size:60px;
+    font-weight:bold;
+    color:green;
+    margin-bottom:-10px;
+    text-align:center;
+  }
+  .webMHead {
+    font-family:'Pacifico',cursive;
+    color:pink;
+    font-size:55px;
+  }
+  .starSize{
+    width:50px;
+    height:50px;
+    margin-top:15px;
+  }
+  .floatR {
+    text-align:right;
+  }
+  .floatL {
+    text-align:left;
+  }
+ .wmDiv{
+   width:61%;
+ }
+ .joinUS{
+   color:#FF69B4;
+   font-weight:bold;
+   font-size:35px;
+   margin-top:40px;
+ }
+ .lineP {
+   background-color:#FF69B4;
+   height:2px;
+   width:75%;
+ }
+ .affText{
+   font-weight:bold;
+   font-size:20px;
+ }
+ .padHead{
+   padding-left:275px;
+   color:orange;
+   font-style:italic;
+   margin-top:-20px;
+ }
+ .tokenPadBot {
+   padding-bottom:2px;
+ }
+ .padTop {
+   padding-top:7px;
+ }
+ .colorRed {
+   color:red !important;
+ }
+ .boldFont {
+   font-weight:bold;
+ }
+ .fontSizeSign {
+   font-size:20px;
+ }
+ .colorGold {
+   color:#ffd700;
+ }
+ .roomSize {
+   height:150px;
+   width:150px;
+ }
+ .padMTop {
+   padding-top:30px;
+ }
+ .imageHeads{
+   color:orange;
+   font-weight:bold;
+ }
+ .joinMUS{
+   color:#FF69B4;
+   font-weight:bold;
+   font-size:35px;
+   margin-top:10px;
+ }
+ .subText {
+   padding-top:5px;
+   font-weight:bold;
+ }#FF69B4;
+ .subSText {
+   font-weight:bold;
+ }
+ .contactContainW {
+    background-color:#a9a9a9;
+    width:324px;
+ }
+ .contactContainC {
+    background-color:#d9d9d9;
+    width:66.65%;
+ }
+ .padTTop {
+   padding-top:20px;
+ }
+ .conHead {
+   color:orange;
+   text-align:center;
+   font-weight:bold;
+ }
+ .imageSizeCont {
+   height:125px;
+   width:125px;
+ }
+ .contInfo{
+   text-align:center;
+   color:red;
+   font-size:8px;
+   font-weight:bold;
+ }
+ .mBold{
+   font-weight:bold;
+ }
+ .mud {
+   text-decoration:underline;
+ }
+ .cartToken {
+   width:72px;
+   height:72px;
+ }
+ .cartTokenHead{
+   padding-left:100px;
+ }
+ .imPic {
+   width:100px;
+   height:100px;
+ }
+ .vidChB {
+   width: 100%;
+   background-color:#d9d9d9;
+   padding-top:12px;
+   padding-bottom:12px;
+ }
+ .panel-default >.panel-heading {
+   background-color:red;
+ }
+ .vidChA {
+   width: 250px;
+   height:500px;
+   background-color:#d9d9d9;
+   position:relative;
+ }
+ .vidChC {
+   position:absolute;
+   width: 200px;
+   height: 425px;
+   background-color: #ffffff;
+   margin-left:25px;
+   margin-top:25px;
+ }
+ .vidChD {
+   position:absolute;
+   width: 135px;
+   margin-top:455px;
+   margin-left:25px;
+ }
+ .vidChE {
+   position:absolute;
+   margin-top:455px;
+   margin-left: 165px;
+ }
+ .smpte {
+   width:95%;
+ }
+ .goal {
+   color:blue;
+   font-weight:bold;
+   font-size:20px;
+ }
+ .tokenTipL {
+   padding-left:350px;
+   color:blue;
+   padding-bottom:60px;
+ } 
+ .fModel {
+   font-weight:bold;
+   font-size:18px;
+ }
+ .padFormHrz {
+   padding-bottom:10px;
+ }
+ .colPink {
+   color:#FF69B4;
+ }
+ .backPink, .backPink:hover, .backPink:focus {
+   background-color:white !important;
+   color:red !important;
+   margin-top:20px;
+ }
+ .popover{color:red;}
+ .tooltip-inner{color:red;}
+ .padLeft {
+   padding-left:5%;
+ }
+ .padRight {
+   padding-right:5%;
+ }
+ .padTop {
+   padding-top:1%;
+ }
+ .video {
+   width:100%;
+   height:315px;
+ }
+ .colorPink {
+   color:pink;
+ }
+ .textred {
+   color:red !important;
+ }
+ .negBot {
+   margin-bottom:-20px;
+ }
+ .ramflag {
+   width:100%;
+   height:200px;
+ }
+ .menuBar {
+   font-size:20px;
+ }
+ .gansize {
+   width:100px;
+   margin-top:50px;
+ }
+ .cenit {
+   margin-top:10px;
+ }
+ .tubH {
+   width:100%px;
+   height:500px;
+ }
+ .rotate {
+
+   /* Safari */
+   -webkit-transform: rotate(-45deg);
+
+   /* Firefox */
+   -moz-transform: rotate(-45deg);
+
+   /* IE */
+   -ms-transform: rotate(-45deg);
+
+   /* Opera */
+   -o-transform: rotate(-45deg);
+
+   /* Internet Explorer */
+   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5);
+
+ }
+ .reg {
+   font-size:20px;
+ }
+ .widthone {
+   width:100%;
+   height:400px;
+ }
+ .nav-tabs > li > a {
+  color:red;
+} 
+ .nav-tabs > li.active > a,
+ .nav-tabs > li.active > a:hover,
+ .nav-tabs > li.active > a:focus,
+ .nav-tabs >li >a:hover {
+   color: #555555;
+   background-color: red;  
+ }
+
+.anglogo {
+  max-width: 50px;
+  max-height: 50px;
+}

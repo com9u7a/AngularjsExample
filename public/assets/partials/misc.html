@@ -1,0 +1,13 @@
+<div ng-controller="tabsCtrl">
+  <uib-tabset>
+    <uib-tab ng-repeat="tab in tabs" heading="{{tab.title}}" active="tab.active">
+      <div ng-include="tab.content"></div>
+    </uib-tab>
+    <uib-tab select="alert()">
+      <uib-tab-heading>
+        <i class="glyphicon glyphicon-bell"></i> Alert!
+      </uib-tab-heading>
+      This uses a select callback to trigger the alert
+    </uib-tab>
+  </uib-tabset>
+</div>

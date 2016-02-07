@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-sm-4 text-center" ng-controller="modalOneCtrl">
+    <button class="btn btn-danger" ng-click="open('lg')">Modal 1</button>
+  </div>
+  <div class="col-sm-4 text-center" ng-controller="modalTwoCtrl">
+    <button class="btn btn-danger" ng-click="open('md')">Modal 2</button>
+  </div>
+  <div class="col-sm-4 text-center" ng-controller="modalThreeCtrl">
+    <button class="btn btn-danger" ng-click="open('md')">Modal 3</button>
+  </div>
+</div>
+  <div ng-include="'assets/partials/modalOne.html'"></div>
+  <div ng-include="'assets/partials/modalTwo.html'"></div>
+  <div ng-include="'assets/partials/modalThree.html'"></div>
+  <div ng-include="'assets/partials/cart.html'"></div>

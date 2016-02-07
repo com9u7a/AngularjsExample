@@ -1,0 +1,89 @@
+<script type="text/ng-template" id="cartModal.html">
+<div class="modal-header">
+  <h3 class="modal-title letter-title colorRed">Shopping Cart</h3>
+</div>
+<div class="modal-body">
+  <div class="letter-body">
+<div class="row">
+    <div class="col-sm-1">
+    </div>
+    <div class="col-sm-10">
+      <table class="table table-responsive">
+        <thead>
+          <tr>
+            <th class="colorRed mBold">Tokens</th>
+            <th class="colorRed mBold">Quantity</th>
+            <th class="text-center colorRed mBold">Price</th>
+            <th class="text-center colorRed mBold">Total</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="col-sm-4">
+              <img class="thumbnail pull-left cartToken" 
+              src="http://imgur.com/33ZYXzk.png">
+              <h4 class="cartTokenHead colorRed mBold">5 tokens</h4>
+            </td>
+            <td class="col-sm-2">
+              <input type="text" class="form-control" value="2">
+            </td>
+            <td class="col-sm-2 text-center">
+              <p class="colorRed">$10.00</p>
+            </td>
+            <td class="col-sm-2 text-center">
+              <p class="colorRed">$20.00</p>
+            </td>
+            <td class="col-sm-2">
+              <button type="button" class="btn btn-danger">
+                <span class="glyphicon glyphicon-remove"></span> Remove
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td class="col-sm-4">
+              <img class="thumbnail pull-left cartToken" 
+              src="http://imgur.com/33ZYXzk.png">
+              <h4 class="cartTokenHead colorRed mBold">25 tokens</h4>
+            </td>
+            <td class="col-sm-2">
+              <input type="text" class="form-control" value="2">
+            </td>
+            <td class="col-sm-2 text-center">
+              <p class="colorRed">$50.00</p>
+            </td>
+            <td class="col-sm-2 text-center">
+              <p class="colorRed">$100.00</p>
+            </td>
+            <td class="col-sm-2">
+              <button type="button" class="btn btn-danger">
+                <span class="glyphicon glyphicon-remove"></span> Remove
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><p class="colorRed mBold">Grand Total</p></td>
+            <td class="text-right colorRed mBold"><p>$120.00</p></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-sm-1">
+    </div>
+  </div>
+</div>
+</div>
+<div class="modal-footer">
+              <button type="button" class="btn btn-danger" ng-click="shop('md')">
+                <span class="glyphicon glyphicon-shopping-cart"></span> Continue Shopping</button>
+              <button type="button" class="btn btn-danger">
+                Update Cart
+              </button>
+              <button type="button" class="btn btn-success" ng-click="ok()">
+                Checkout <span class="glyphicon glyphicon-play"></span>
+              </button>
+</div>
+</script>

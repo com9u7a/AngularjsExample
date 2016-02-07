@@ -1,0 +1,14 @@
+<div ng-controller="filterCtrl" class="text-center colorRed">
+  <button ng-click="myData.doClick(item, $event)">Send AJAX Request</button>
+    <br/>
+<label>Any: <input ng-model="search.$"></label> <br>
+<label>Name only <input ng-model="search.name"></label><br>
+<label>Phone only <input ng-model="search.phone"></label><br>
+<table class="centerDiv">
+  <tr><th>Name</th><th>Phone</th></tr>
+  <tr ng-repeat="friend in myData | filter:search">
+    <td>{{friend.name}}</td>
+    <td>{{friend.phone}}</td>
+  </tr>
+</table>
+</div>

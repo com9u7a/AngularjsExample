@@ -1,0 +1,9 @@
+<div class="form-group" ng-class="{'has-error' : !inputModel}">
+  <label>Disable tooltips conditionally:</label>
+  <input type="text" ng-model="inputModel" class="form-control"
+  placeholder="Hover over this for a tooltip until this is filled"
+  uib-tooltip="Enter something in this input field to disable this tooltip"
+  tooltip-placement="top"
+  tooltip-trigger="mouseenter"
+  tooltip-enable="!inputModel" />
+</div>

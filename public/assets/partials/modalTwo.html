@@ -1,0 +1,32 @@
+<script type="text/ng-template" id="buyTokensModal.html">
+<div class="modal-header">
+  <h3 class="modal-title letter-title colorRed">Buy Tokens</h3>
+</div>
+<div class="modal-body">
+  <div class="letter-body">
+  <div class="row">
+    <div class="col-sm-12">
+      <form role="form" action="cart.html" class="form-inline centerContain">
+        <div class="form-group">
+          <label class=" colorRed" for="token">Tokens:</label>
+          <select class="form-control colorRed" id="token">
+            <option>5 - $10</option>
+            <option>10 - $20</option>
+            <option>25 - $50</option>
+            <option>50 - $100</option>
+            <option>100 - $200</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class=" colorRed" for="quant">Quantity:</label>
+          <input type="text" class="form-control" id="quant">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+<div class="modal-footer">
+  <button class="btn btn-danger" ng-click="ok('lg')">Buy Tokens</button>
+</div>
+</script>

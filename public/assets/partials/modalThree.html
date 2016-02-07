@@ -1,0 +1,25 @@
+<script type="text/ng-template" id="pictureModal.html">
+<div class="modal-header">
+  <h3 class="modal-title letter-title textred">Kitty Pictures</h3>
+</div>
+<div class="modal-body">
+  <div class="letter-body">
+    <div ng-controller="CarouselDemoCtrl">
+  <div style="height: 305px">
+    <uib-carousel interval="myInterval" no-wrap="noWrapSlides">
+      <uib-slide ng-repeat="slide in slides" active="slide.active">
+        <img ng-src="{{slide.image}}" style="margin:auto; height:305px;">
+        <div class="carousel-caption">
+          <h4>Slide {{$index+1}}</h4>
+          <p>{{slide.text}}</p>
+        </div>
+      </uib-slide>
+    </uib-carousel>
+  </div>
+    </div>
+  </div>
+</div>
+<div class="modal-footer">
+        <button class="btn btn-danger" ng-click="ok()">Close</button>
+</div>
+</script>

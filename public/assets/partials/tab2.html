@@ -1,0 +1,14 @@
+<div ng-controller="accordionCtrl">
+<uib-accordion>
+<uib-accordion-group is-open="status.open">
+  <uib-accordion-heading> Accordion Heading 
+  <i class="pull-right glyphicon" 
+  ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+  </uib-accordion-heading>
+    <p>The body of the uib-accordion group grows to fit the contents</p>
+    <button type="button" class="btn btn-danger btn-sm" 
+    ng-click="addItem()">Add Item</button>
+    <div ng-repeat="item in items">{{item}}</div>
+  </uib-accordion-group>
+</uib-accordion>
+</div>
